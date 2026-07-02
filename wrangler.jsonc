@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "roamivo-website",
+  "compatibility_date": "2026-07-03",
+  "assets": {
+    "directory": "."
+  },
+  "routes": [
+    {
+      "pattern": "roamivo.xyz",
+      "custom_domain": true
+    }
+  ]
+}
